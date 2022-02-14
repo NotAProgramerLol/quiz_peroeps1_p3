@@ -20,19 +20,27 @@ main {
   padding: 10px;
   background-color: snow;
   box-shadow: 5px 5px 20px;
-
   border-radius: 25px;
 }
 
 .left {
   grid-area: 2 / 2 / 3 / 3;
-  background-color: hotpink;
+
+
+  border-radius: 25px;
+  padding: 10px;
 }
 .midd {
   grid-area: 2 / 3 / 3 / 4;
-  background-color: lawngreen;
+
+
+  border-radius: 25px;
+  padding: 10px;
 }
 .right {
   grid-area: 2 / 4 / 3 / 5;
-  background-color: coral;
+
+
+  border-radius: 25px;
+  padding: 10px;
 }
