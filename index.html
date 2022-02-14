@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/quizz.js" defer></script>
     <title>quizz-home</title>
   </head>
   <body>
     <main>
       <!-- niks in deze div doen is alleen voor de wite box ding -->
       <div class="content"></div>
-      <!-- niks in deze div doen is alleen voor de wite box ding -->
-      <div class="left">left</div>
-      <div class="midd">midd</div>
-      <div class="right">right</div>
+      <!-- nav shit -->
+      <div class="left"></div>
+      <!-- vragen etc (gwn de quiz) -->
+      <div class="midd">
+        <h2 class="vraagTitle" id="vraag">random shit naam test</h2>
+        <div class="quizz" id="quizz"></div>
+        <button class="submit" id="submit">
+          <center>Submit</center>
+        </button>
+      </div>
+      <!-- stats dus van wat je goed en fout doet -->
+      <div class="right" id="stats"></div>
     </main>
   </body>
 </html>
