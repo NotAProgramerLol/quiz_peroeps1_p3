@@ -14,8 +14,9 @@ const config = {
 };
 
 function submit() {
+  quizVraag++;
   submitButton.innerHTML = "Volgende";
-  (vraagNaam.innerHTML = "Vraag"), quizVraag;
+  vraagNaam.innerHTML = "Vraag", quizVraag;
   console.warn("vraag", quizVraag);
 
   if (quizVraag == 1) {
