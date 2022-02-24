@@ -104,13 +104,11 @@ if (document.getElementById("q").addEventListener("click", check)) {
   console.error("sda");
 }
 function check(antwrd, vrgnum) {
-  document.getElementById('q').
-  if (antwrd == "G" && (vrgnum == quizVraag)) {
+  document.getElementById("q").value;
+  if (antwrd == "G" && vrgnum == quizVraag) {
     goed++;
-
   } else if (antwrd == "F" && vrgnum == quizVraag) {
     fout++;
-
   } else {
     console.error("u fucked up lol");
   }
