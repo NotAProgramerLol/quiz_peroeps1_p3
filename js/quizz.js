@@ -7,9 +7,16 @@ let stats = document.getElementById("stats");
 let goed = 0;
 let fout = 0;
 let quizVraag = 0;
+let antwrd;
 
 // let checkvraagCount = 0;
 // begin vragen
+function int(){
+  console.warn("int");
+  document.getElementById("q").addEventListener("click", check);
+
+}
+
 const q1 =
   "<input type='radio' id='q' name='q' value='f' /> F <br />" +
   "<input type='radio' id='q' name='q' value='g' /> G <br />" +
@@ -67,6 +74,7 @@ const q10 =
 // };
 
 function submit() {
+  antwrd = document.getElementById('q').value;
   if (quizVraag == 0) {
     submitButton.innerHTML = "Volgende";
     quizVraag = 1;
@@ -97,14 +105,13 @@ function submit() {
   }
   vraagNaam.innerHTML = "<p>Vraag</p>" + quizVraag;
   console.warn("vraag", quizVraag);
+  int();
 }
 
 // validatie
-if (document.getElementById("q").addEventListener("click", check)) {
-  console.error("sda");
-}
+
 function check(antwrd, vrgnum) {
-  document.getElementById("q").value;
+  console.error("slsll");
   if (antwrd == "G" && vrgnum == quizVraag) {
     goed++;
   } else if (antwrd == "F" && vrgnum == quizVraag) {
@@ -113,4 +120,5 @@ function check(antwrd, vrgnum) {
     console.error("u fucked up lol");
   }
   console.log("G:" + goed + " | F:" + fout);
+  int();
 }
