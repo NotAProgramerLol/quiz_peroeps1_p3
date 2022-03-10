@@ -205,8 +205,8 @@ function check(qNummer) {
   console.warn(qNummer);
   switchVraag();
 }
-q1.addEventListener("click", switchVraag);
-q2.addEventListener("click", switchVraag);
-q3.addEventListener("click", switchVraag);
-q4.addEventListener("click", switchVraag);
-// switchVraag();
+q1.addEventListener("click", check);
+q2.addEventListener("click", check);
+q3.addEventListener("click", check);
+q4.addEventListener("click", check);
+switchVraag();
