@@ -63,10 +63,23 @@ main {
   grid-area: 2 / 2 / 3 / 4;
   /***/
 }
-.submit {
-  grid-area: 3 / 2 / 4 / 3;
-  /***/
-  font-weight: bold;
-  border: groove 4px black;
-  margin: 10px;
+#q1{
+  width: 50%;
+  height: auto;
+
+}
+#q2{
+  right: 100%;
+  width: 50%;
+  
+}
+#q3{
+  width: 50%;
+  height: auto;
+  
+}
+#q4{
+  right: 100%;
+  width: 50%;
+  
 }
