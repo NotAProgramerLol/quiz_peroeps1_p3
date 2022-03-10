@@ -45,8 +45,9 @@ main {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+
 .right {
-  grid-area: 2 / 4 / 3 / 5;
+  grid-area: 3 / 4 / 3 / 5;
   /***/
   border-radius: 25px;
   padding: 10px;
@@ -58,28 +59,36 @@ main {
   bottom: 0px;
   border-bottom: solid black 2px;
   padding: 20px;
+  margin-left: 25%;
 }
 .quizz {
   grid-area: 2 / 2 / 3 / 4;
   /***/
+  margin: 2%;
 }
+
 #q1{
   width: 50%;
   height: auto;
+  float: left;
 
 }
 #q2{
   right: 100%;
   width: 50%;
-  
+  float: right;
+
+
 }
 #q3{
   width: 50%;
   height: auto;
+   float: left;
   
 }
 #q4{
   right: 100%;
   width: 50%;
+  float: right;
   
 }
