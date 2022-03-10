@@ -20,6 +20,7 @@ let vraag07 = ["ant1", "ant2", "ant3", "ant4"];
 let vraag08 = ["ant1", "ant2", "ant3", "ant4"];
 let vraag09 = ["ant1", "ant2", "ant3", "ant4"];
 let vraag10 = ["ant1", "ant2", "ant3", "ant4"];
+
 function switchVraag() {
   switch (huidigeVraag) {
     case 1:
@@ -161,41 +162,41 @@ function switchVraag() {
 }
 function check(qNummer) {
   // 1
-  if (qNummer == '1' && q1.value == true) {
+  if (qNummer == "1" && q1.value == true) {
     goed++;
     huidigeVraag++;
-  } else if (qNummer == '1' && q1.value == false) {
+  } else if (qNummer == "1" && q1.value == false) {
     fout++;
     huidigeVraag++;
   } else {
     console.error("u fucked up1");
   }
   // 2
-  if (qNummer == '2' && q2.value == true) {
+  if (qNummer == "2" && q2.value == true) {
     goed++;
     huidigeVraag++;
-  } else if (qNummer == '2' && q2.value == false) {
+  } else if (qNummer == "2" && q2.value == false) {
     fout++;
     huidigeVraag++;
   } else {
     console.error("u fucked up2");
   }
   // 3
-  if (qNummer == '3' && q3.value == true) {
+  if (qNummer == "3" && q3.value == true) {
     goed++;
     huidigeVraag++;
-  } else if (qNummer == '3' && q3.value == false) {
+  } else if (qNummer == "3" && q3.value == false) {
     fout++;
     huidigeVraag++;
   } else {
     console.error("u fucked up3");
-    console.warn(typeof(q3.value));
+    console.warn(typeof q3.value);
   }
   // 4
-  if (qNummer == '4' && q4.value == true) {
+  if (qNummer == "4" && q4.value == true) {
     goed++;
     huidigeVraag++;
-  } else if (qNummer == '4' && q4.value == false) {
+  } else if (qNummer == "4" && q4.value == false) {
     fout++;
     huidigeVraag++;
   } else {
@@ -204,4 +205,8 @@ function check(qNummer) {
   console.warn(qNummer);
   switchVraag();
 }
-switchVraag();
+q1.addEventListener("click", switchVraag);
+q2.addEventListener("click", switchVraag);
+q3.addEventListener("click", switchVraag);
+q4.addEventListener("click", switchVraag);
+// switchVraag();
