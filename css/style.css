@@ -7,7 +7,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 main {
-  background-color: khaki;
+  background-color: aqua;
   height: 100vh;
   width: 100vw;
   /***/
@@ -54,17 +54,17 @@ main {
 }
 
 .vraagTitle {
-  grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 2 / 2 / 3;
   /***/
   bottom: 0px;
   border-bottom: solid black 2px;
-  padding: 20px;
-  margin-left: 25%;
+ 
+  
 }
 .quizz {
   grid-area: 2 / 2 / 3 / 4;
   /***/
-  margin: 2%;
+  padding: 10%;
 }
 
 #q1{
