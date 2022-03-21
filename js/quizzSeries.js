@@ -13,74 +13,74 @@ let q3 = document.getElementById("q3");
 let q4 = document.getElementById("q4");
 
 let vraag01 = [
-  "Minecraft<br />Wat gebeurt er als je een bed plaats in the nether",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Rick and Morty<br />Welk seizoen werden draken gezien als hoeren ",
+  "1",
+  "4",
+  "5",
+  "3",
 ];
 let vraag02 = [
-  "GTA V<br />Waneer is de game uitgekomen",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "South park<br />Welk bedrijf begon randy in de laatste paar seizoenen",
+  "Randy’s weed farm",
+  "Randy’s car shop",
+  "Randy’s hair salon",
+  "Randy’s hasj farm",
 ];
 let vraag03 = [
-  "Roblox<br />Wat is de in-game geld",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Spongebob<br />Welk karakter heeft een neus die op een penis lijkt",
+  "Sandy",
+  "Octo",
+  "Krabs",
+  "Peter griffin",
 ];
 let vraag04 = [
-  "Valorant<br />Welke map is het nieuwst?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Avatar<br />Hoe heet de hoofdpersoon van Aavatar",
+  "Aang",
+  "Jan",
+  "Henk",
+  "Gerda",
 ];
 let vraag05 = [
-  "The sims<br />Wat is hallo in Simlish",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Disjointed<br />Wat groeien ze in hun bedrijf",
+  "Hasj",
+  "Medicinale wiet",
+  "Xtc",
+  "LSD",
 ];
 let vraag06 = [
-  "Osu<br />Wat moet je doen in het spel?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Archer<br />Wie raakt er in een coma",
+  "Archer",
+  "Lana",
+  "Cyrel",
+  "Henk",
 ];
 let vraag07 = [
-  "Destiny 2<br />Waar gaat de nieuwe DLC (The witch queen) over?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Netflix<br />Wat is de meest gekeken serie op netflix (januari 2022)",
+  "Rick and mort",
+  "Stranger things",
+  "The witcher",
+  "Brooklyn nine-nine",
 ];
 let vraag08 = [
-  "Leauge of legends<br />Wat is de naam van de serie van deze game",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Brooklyn nine-nine<br />Jake peralta heft iets met  …",
+  "Gina",
+  "Charles",
+  "Amy",
+  "Holt",
 ];
 let vraag09 = [
-  "Fortnite<br />Hoeveel seasons heeft het spel in totaal gehad ( januari 2022 )",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "After-life<br />Waar gaat de serie over",
+  "Depressie",
+  "Psygische aandoening",
+  "LGBTQ",
+  "Happiness",
 ];
 let vraag10 = [
-  "Rainbow six siege<br />Hoeveel hackers zijn er in deze game",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Outer banks<br />Wat is het doel in seizoen 1",
+  "Ze gaan diamonds stelen",
+  "Ze gaan goud stelen",
+  "Ze gaan geld stelen",
+  "Ze stelen niks",
 ];
 
 function switchVraag() {
@@ -92,7 +92,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag01[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag01[3];
       q3.value = false;
@@ -104,7 +104,7 @@ function switchVraag() {
       vraag.innerHTML = vraag02[0];
       //
       q1.innerHTML = vraag02[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag02[2];
       q2.value = false;
@@ -122,7 +122,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag03[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag03[3];
       q3.value = false;
@@ -134,7 +134,7 @@ function switchVraag() {
       vraag.innerHTML = vraag04[0];
       //
       q1.innerHTML = vraag04[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag04[2];
       q2.value = false;
@@ -152,7 +152,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag05[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag05[3];
       q3.value = false;
@@ -164,7 +164,7 @@ function switchVraag() {
       vraag.innerHTML = vraag06[0];
       //
       q1.innerHTML = vraag06[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag06[2];
       q2.value = false;
@@ -182,7 +182,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag07[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag07[3];
       q3.value = false;
@@ -200,7 +200,7 @@ function switchVraag() {
       q2.value = false;
       //
       q3.innerHTML = vraag08[3];
-      q3.value = false;
+      q3.value = true;
       //
       q4.innerHTML = vraag08[4];
       q4.value = false;
@@ -209,7 +209,7 @@ function switchVraag() {
       vraag.innerHTML = vraag09[0];
       //
       q1.innerHTML = vraag09[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag09[2];
       q2.value = false;
@@ -227,7 +227,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag10[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag10[3];
       q3.value = false;

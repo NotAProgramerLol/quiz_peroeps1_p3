@@ -14,73 +14,73 @@ let q4 = document.getElementById("q4");
 
 let vraag01 = [
   "Minecraft<br />Wat gebeurt er als je een bed plaats in the nether",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Hij ontploft",
+  "Je zet een spawnpoint",
+  "Je krijgt full health",
+  "Je krijgt diamonds",
 ];
 let vraag02 = [
   "GTA V<br />Waneer is de game uitgekomen",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "2014",
+  "2013",
+  "1943",
+  "14 B.C",
 ];
 let vraag03 = [
   "Roblox<br />Wat is de in-game geld",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Robux",
+  "Tickets",
+  "V-Bucks",
+  "Hanie punten",
 ];
 let vraag04 = [
   "Valorant<br />Welke map is het nieuwst?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Ice-box",
+  "Fracture",
+  "Blind",
+  "Nederland",
 ];
 let vraag05 = [
   "The sims<br />Wat is hallo in Simlish",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Su Su",
+  "Baka",
+  "Fakka",
+  "Du Du",
 ];
 let vraag06 = [
   "Osu<br />Wat moet je doen in het spel?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Cirkels klikken",
+  "Vierkanten klikken",
+  "Driehoeken klikken",
+  "Cilinders klikken",
 ];
 let vraag07 = [
   "Destiny 2<br />Waar gaat de nieuwe DLC (The witch queen) over?",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Alians",
+  "Piramide schepen",
+  "The hive",
+  "The iluminatie",
 ];
 let vraag08 = [
   "Leauge of legends<br />Wat is de naam van de serie van deze game",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "Arcane",
+  "Magic",
+  "Senpai",
+  "Leauge",
 ];
 let vraag09 = [
   "Fortnite<br />Hoeveel seasons heeft het spel in totaal gehad ( januari 2022 )",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "19",
+  "10",
+  "2",
+  "15",
 ];
 let vraag10 = [
   "Rainbow six siege<br />Hoeveel hackers zijn er in deze game",
-  "ant1",
-  "ant2",
-  "ant3",
-  "ant4",
+  "1",
+  "8",
+  "Iedereen hacked",
+  "Niemand hacked",
 ];
 
 function switchVraag() {
@@ -89,7 +89,7 @@ function switchVraag() {
       vraag.innerHTML = vraag01[0];
       //
       q1.innerHTML = vraag01[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag01[2];
       q2.value = false;
@@ -107,7 +107,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag02[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag02[3];
       q3.value = false;
@@ -119,7 +119,7 @@ function switchVraag() {
       vraag.innerHTML = vraag03[0];
       //
       q1.innerHTML = vraag03[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag03[2];
       q2.value = false;
@@ -137,7 +137,7 @@ function switchVraag() {
       q1.value = false;
       //
       q2.innerHTML = vraag04[2];
-      q2.value = false;
+      q2.value = true;
       //
       q3.innerHTML = vraag04[2];
       q3.value = false;
@@ -149,7 +149,7 @@ function switchVraag() {
       vraag.innerHTML = vraag05[0];
       //
       q1.innerHTML = vraag05[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag05[2];
       q2.value = false;
@@ -164,7 +164,7 @@ function switchVraag() {
       vraag.innerHTML = vraag06[0];
       //
       q1.innerHTML = vraag06[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag06[2];
       q2.value = false;
@@ -185,7 +185,7 @@ function switchVraag() {
       q2.value = false;
       //
       q3.innerHTML = vraag07[3];
-      q3.value = false;
+      q3.value = true;
       //
       q4.innerHTML = vraag07[4];
       q4.value = false;
@@ -194,7 +194,7 @@ function switchVraag() {
       vraag.innerHTML = vraag08[0];
       //
       q1.innerHTML = vraag08[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag08[2];
       q2.value = false;
@@ -209,7 +209,7 @@ function switchVraag() {
       vraag.innerHTML = vraag09[0];
       //
       q1.innerHTML = vraag09[1];
-      q1.value = false;
+      q1.value = true;
       //
       q2.innerHTML = vraag09[2];
       q2.value = false;
@@ -230,7 +230,7 @@ function switchVraag() {
       q2.value = false;
       //
       q3.innerHTML = vraag10[3];
-      q3.value = false;
+      q3.value = true;
       //
       q4.innerHTML = vraag10[4];
       q4.value = false;
