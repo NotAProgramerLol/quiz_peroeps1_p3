@@ -60,7 +60,7 @@ main {
 }
 
 .vraagTitle {
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1 / 1 / 2 / 4;
   /***/
   bottom: 0px;
   margin-left: 20%;
