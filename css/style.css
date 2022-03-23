@@ -26,7 +26,7 @@ main {
 }
 
 .content {
-  grid-area: 2 / 2 / 3 / 5;
+  grid-area: 2 / 2 / 2 / 5;
   /***/
   padding: 10px;
   background-color: snow;
@@ -54,7 +54,7 @@ main {
 }
 
 .right {
-  grid-area: 2 / 4 / 3 / 5;
+  grid-area: 3 / 4 / 3 / 5;
   /***/
   border-radius: 25px;
   padding: 10px;
