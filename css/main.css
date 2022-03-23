@@ -1,0 +1,52 @@
+.logo{
+    margin: -0.2%;
+    border: double rgba(3, 184, 184, 0.953) 3px;
+    border-radius: 10px;
+    background-color: rgba(3, 226, 226, 0.844);
+}
+html{
+    background-color:aqua;
+}
+#inleiding{
+    text-align:top;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: rgb(4, 213, 213);
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    margin-top: 4%;
+    border-radius: 10px;
+}
+#onderwerpen{
+    position:absolute;
+    margin-left: 60%;
+    margin-top: 3%;
+    background-color: rgba(3, 160, 160, 0.296);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+#ma{
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h5{
+    margin-left: 1%;
+}
+a{
+    color: black;
+}
+#ft{
+    border-radius: 10px;
+}
+footer{
+    margin-top: 8%;
+    background-color: rgba(1, 131, 131, 0.302);
+    padding: 1.5%;
+    border-radius: 10PX;
+    float:unset;
+}
